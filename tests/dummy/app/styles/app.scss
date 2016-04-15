@@ -1,0 +1,56 @@
+$black: #000;
+
+html, body, body > .ember-view {
+  // height: 100%;
+}
+
+.panel-horizontal {
+  // TODO
+}
+
+.top {
+  height: 250px;
+  background-color: lightgray;
+  color: $black;
+  border: 1px solid $black;
+}
+
+.bottom {
+  height: 250px;
+  background-color: lightgray;
+  color: $black;
+  border: 1px solid $black;
+}
+
+.pane-separator {
+  @extend .disable-text-selection;
+
+  height: 10px;
+  line-height: 10px;
+  background-color: darkgray;
+  border: 1px solid $black;
+  color: $black;
+  text-align: center;
+
+  &:hover {
+    cursor: row-resize;
+  }
+}
+
+.disable-text-selection {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.disable-draggable-ghosting {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}

@@ -1,6 +1,6 @@
 # Ember-panes
 
-This README outlines the details of collaborating on this Ember addon.
+WIP addon that provides composable components with draggable separators.
 
 ## Installation
 

@@ -1,0 +1,1 @@
+export { default } from 'ember-panes/components/pane-separator/component';
