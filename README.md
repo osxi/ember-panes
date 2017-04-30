@@ -1,5 +1,7 @@
 # Ember-panes
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/osxi/ember-panes.svg)](https://greenkeeper.io/)
+
 WIP addon that provides composable components with draggable separators.
 
 ## Installation
